@@ -1,4 +1,5 @@
 Treinamento Stefanini
+
 ###################################### Conteudo do Curso de JavaScript ######################################
 
 Visão geral do que é o Banco do Brasil
@@ -7,14 +8,36 @@ Arquitetura (Print arq projeto)
 Aplicações (Plataforma)
 Documentação (PltConfig, Catálogo, Swagger, Connections)
 
-JavaScript IF normal IF ternário IF ELSE IF ELSE IF SWITCH WHILE DO/WHILE FOR
+JavaScript 
+    IF normal 
+    IF ternário 
+    IF ELSE
+    SWITCH 
+    WHILE 
+    DO/WHILE 
+    FOR
 
 Funções
 Promesses para que serve e como fazer
 AngularJS
 
-Estrutura AngularJS module controller service/factory
-Diretivas ng-init ng-model ng-repeat ng-change ng-click ng-disabled ng-show ng-if ForEach copy
+Estrutura AngularJS 
+    module 
+    controller 
+    service
+
+Diretivas 
+    ng-init 
+    ng-model 
+    ng-repeat 
+    ng-change 
+    ng-click 
+    ng-disabled 
+    ng-show 
+    ng-if 
+    ForEach 
+    copy
+    
 Ambiente Desenv Baixar projeto no GIT Estrutura Desenvolver o projeto
 
 AULA 01 - Visão geral do que é o Banco do Brasil Iniciamos nossos trabalhos em 2015, e hoje somos, contando todos os gerentes, uma equipe de quase 350 profissionais. Gerentes: Carlos Cunha Wellington Thiago Everton Ubatânia
