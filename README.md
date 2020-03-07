@@ -54,3 +54,7 @@ O que eh Proton?
 Para proxima aula estudar sobre JavaScript e Angular JS LInks uteis:
 
 BOOTSTRAP: https://getbootstrap.com/docs/4.4/getting-started/introduction/ ANGUJARJS: https://docs.angularjs.org/guide AMBOS: https://www.w3schools.com/ https://eusoudev.com.br/trabalhar-com-angularjs/
+
+Conceito de Single Page Application
+
+Um aplicativo de página única (em inglês "single-page application", ou SPA) é uma aplicação web ou site que consiste de uma única página web com o objetivo de fornecer uma experiência do usuário similar à de um aplicativo desktop. Em um SPA, todo o código necessário - HTML, JavaScript, e CSS – ou é obtido com um único carregamento de página, ou os recursos apropriados são carregados dinamicamente e adicionados à página conforme necessário, geralmente em resposta a ações do usuário.
