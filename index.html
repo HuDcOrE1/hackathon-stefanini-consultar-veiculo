@@ -1,12 +1,25 @@
 <html>
+    	<!-- 
+						Documentação para consulta
+            BOOTSTRAP: https://getbootstrap.com/docs/4.4/getting-started/introduction/ 
+            ANGUJARJS: https://docs.angularjs.org/guide
+            AMBOS:     https://www.w3schools.com/
+            INSTRUÇÕES DA API: http://fipeapi.appspot.com/
+            https://eusoudev.com.br/trabalhar-com-angularjs/
+        -->
 	<head>
 		<title>Consulta de Veículos</title>
             <script src="node_modules\angular\angular.min.js"></script>
             <script src="node_modules\angular-route\angular-route.min.js"></script>
+            <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+            <link  href="node_modules\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet">
 
             <script src="consulta-veiculo.app.js"></script>
             <script src="consulta-veiculo.route.js"></script>
+            <script src="consulta-veiculo.service.js"></script>
             <script src="consulta-veiculo-aplicacao\consulta-home.controller.js"></script>
+            <script src="consulta-veiculo-aplicacao\consulta-listagem.controller.js"></script>
+            
         </head>
         <body ng-app="app">
             <div ng-view></div>
