@@ -6,15 +6,20 @@ angular.module("app").controller("ControladorDaPagina", ControladorDaPagina);
         $q, $filter, $routeParams, ConsultaVeiculoService){
         vm = this;
         vm.ola = "Olá Mundo!!!"
+
         
-        vm.goToListagem = function(){
-            //$location.path("listagem/100000");
+        vm.chamaAfuncaoInicial = function(){
             vm.executaConsultaModelo();
         }
 
+
         vm.executaConsultaModelo = function(){
-           vm.marcas = ConsultaVeiculoService.executaConsultaModelo_GET();
-           console.log(vm.marcas)
+           vm.marcas = ConsultaVeiculoService.executaConsultaModelo_GET().then(function(resposta){
+                if(resposta){
+                    vm.marcas =  resposta;
+                    console.log(vm.marcas)
+                }
+           });
         }
 
 
